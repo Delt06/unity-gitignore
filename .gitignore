@@ -4,9 +4,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#
+.vscode/
+
 # Idea
 .idea/
 *.iml
+
+# Logcat
+ProjectSettings/AndroidLogcatSettings.asset
 
 # User-specific files
 *.rsuser
@@ -27,7 +33,6 @@ mono_crash.*
 [Rr]elease/
 [Rr]eleases/
 bld/
-[Bb]in/
 [Ll]og/
 [Ll]ogs/
 
