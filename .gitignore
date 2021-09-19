@@ -4,8 +4,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-#
+# Visual Studio Code
 .vscode/
+
+.DS_Store
 
 # Idea
 .idea/
@@ -32,8 +34,7 @@ mono_crash.*
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-bld/
-[Ll]og/
+bld
 [Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
