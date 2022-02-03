@@ -4,8 +4,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+*.vsconfig
+*.keystore
+
 # Visual Studio Code
 .vscode/
+
 
 .DS_Store
 
@@ -30,8 +34,6 @@ ProjectSettings/AndroidLogcatSettings.asset
 mono_crash.*
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
 bld
@@ -70,32 +72,6 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
-# Files built by Visual Studio
-*_i.c
-*_p.c
-*_h.h
-*.ilk
-*.iobj
-*.pch
-*.pdb
-*.ipdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*_wpftmp.csproj
-*.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
 
 # Chutzpah Test files
 _Chutzpah*
